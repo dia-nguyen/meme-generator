@@ -1,5 +1,6 @@
 "use strict";
 
+/** Generates div with meme on form submission */
 function generateMeme(event) {
   event.preventDefault();
   // Get form values
@@ -27,6 +28,7 @@ function generateMeme(event) {
   showAlert("Meme Successfully Generated!");
 }
 
+/** Removes meme div on click */
 function deleteMeme(element) {
   // Finds targetted element and delets parent element (meme container)
   const selectedMeme = element.parentElement;
@@ -42,6 +44,7 @@ function deleteMeme(element) {
   showAlert("Meme Deleted");
 }
 
+/** Shows Alert when a meme is generated or deleted*/
 function showAlert(msg) {
   const alert = document.querySelector(".alert");
   alert.innerHTML = `<p>${msg}</p>`;
