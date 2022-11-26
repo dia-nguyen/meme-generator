@@ -2,4 +2,4 @@
 
 Meme generator created with HTML, CSS, and vanilla JS.
 
-[View Live](https://dianguyen95.github.io/meme-generator)
+[View Live](https:///dia-nguyen.github.io/meme-generator)
